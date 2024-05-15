@@ -8,7 +8,7 @@ public class Database {
     private Connection connection;
 
     public Connection createConnection() {
-        String url = "jdbc:postgresql://localhost/airbnb?user=postgres&password=admin";
+        String url = "jdbc:postgresql://localhost/airbnb?user=postgres&password=nemmondommeg";
         try {
             connection = DriverManager.getConnection(url);
 

@@ -103,7 +103,8 @@ public class Airbnb extends JFrame {
     }
 
     private void openAddApartmentDialog() {
-        //TODO
+        Dialog dialog = new Dialog();
+        dialog.setVisible(true);
     }
 
     public void addApartment(ApartmentDao apartmentDao) {
